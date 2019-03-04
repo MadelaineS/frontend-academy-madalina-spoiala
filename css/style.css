@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Bootstrap Padding Fix*/
+/*[class*="col-"]{
+	padding: 1rem;
+}
+*/
+* {
+	margin: 0;
+}
+
+@font-face {
+  font-family: Heiti SC;
+  src: url('fonts/STHeitiSC-Light.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: Aller_Rg;
+  src: url('fonts/Aller_Rg.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: Myriad Pro;
+  src: url('fonts/MyriadPro-Regular.ttf')  format('truetype');
+}
+
+.header-logo{
+	background-color: #242424;
+	height: 45px;
+}
+
+.logo{
+  font-size: 26px;
+  font-family: "Heiti SC", Arial, sans-serif;
+  color: #57c5a0;
+  padding: 11px 0;
+ }
+
+/*vertical line*/
+/*hr{
+	border-left: 1px solid #383838;
+}*/
+ .search-bar{
+ 	font-size: 12px;
+ 	font-family: "Myriad Pro";
+ 	color: #7e7e7e;
+	padding: 15px 23px 0;
+    border-right: 1px solid #383838;
+    border-left: 1px solid #383838;
+ }
+
+ .search-text{
+ 	float: left;
+ }
+ .fas{ /*search logo*/
+ 	float: right;
+ }
+
+ .login-register{
+  font-size: 12px;
+  font-family: "Aller_Rg";
+  color: #7e7e7e;
+  padding: 15px 0;
+  text-align: center;
+  border-right: 1px solid #383838;
+  border-left: 1px solid #383838;
+
+ }
