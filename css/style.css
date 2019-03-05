@@ -12,72 +12,104 @@
 
 /*FONTS*/
 @font-face {
-  font-family: Heiti SC;
-  src: url('../fonts/STHeitiSC-Light.ttf')  format('truetype');
+    font-family: Heiti SC;
+    src: url('../fonts/STHeitiSC-Light.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: Aller_Rg;
-  src: url('../fonts/Aller_Rg.ttf')  format('truetype');
+    font-family: Aller_Rg;
+    src: url('../fonts/Aller_Rg.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: Myriad Pro;
-  src: url('../fonts/MyriadPro-Regular.otf')  format('truetype');
+    font-family: Myriad Pro;
+    src: url('../fonts/MyriadPro-Regular.otf') format('truetype');
 }
 
-/*HEADER*/
-.header-logo{
-	background-color: #242424;
-	/*height: 45px;*/
-}
-.logo{
-	padding: 6px 0;
+/*HEADER LOGO/SEARCH/LOGIN/REGISTER*/
+.header-logo {
+    background-color: #242424;
+    /*height: 45px;*/
 }
 
-.logo a{
-  font-size: 26px;
-  font-family: "Heiti SC", Arial, sans-serif;
-  color: #57c5a0;
-  text-decoration: none;
- }
+.logo {
+    padding: 6px 0;
+}
 
- .logo a:hover{
- 	color: #46b28e;
- }
+.logo a {
+    font-size: 26px;
+    font-family: "Heiti SC", Arial, sans-serif;
+    color: #57c5a0;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: #46b28e;
+}
 
 /*vertical line*/
 /*hr{
 	border-left: 1px solid #383838;
 }*/
- .search-bar{
- 	color: #7e7e7e;
-	padding: 15px 23px 0;
+.search-bar {
+    color: #7e7e7e;
+    padding: 15px 23px 0;
     border-right: 1px solid #383838;
     border-left: 1px solid #383838;
- }
+}
 
-.search-text{
- 	float: left;
- 	font-size: 12px;
- 	font-family: "Myriad Pro";
- 	text-transform: uppercase;
- 	width: 100px;
- 	background-color: #242424;
- 	border-color: #242424;
- }
- 
- .fas{ /*search logo*/
- 	float: right;
- }
+.search-text {
+    float: left;
+    font-size: 12px;
+    color: #7e7e7e;
+    font-family: "Myriad Pro";
+    text-transform: uppercase;
+    width: 100px;
+    background-color: #242424;
+    border-color: #242424;
+}
 
- .login-register{
-  font-size: 12px;
-  font-family: "Aller_Rg";
-  color: #7e7e7e;
-  padding: 15px 0;
-  text-align: center;
-  border-right: 1px solid #383838;
-  border-left: 1px solid #383838;
+.fas {
+    /*search logo*/
+    float: right;
+}
 
- }
+.login-register {
+    font-size: 12px;
+    font-family: "Aller_Rg";
+    color: #7e7e7e;
+    padding: 15px 0;
+    text-align: center;
+    border-right: 1px solid #383838;
+    border-left: 1px solid #383838;
+
+}
+
+
+/*HEADER MENU*/
+
+
+.header-menu {
+    background-color: #ebeae5;
+}
+
+.navitem{
+	padding: 24px 22px 0px 22px;
+}
+
+.navitem{
+    border-left: 1px solid #000;
+}
+.navitem:last-child{
+    border-right: 1px solid #000;
+}
+.navlink{
+	color: #242424;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: "Aller_Rg";
+}
+
+.navlink:hover{
+	color: #333333;
+}
