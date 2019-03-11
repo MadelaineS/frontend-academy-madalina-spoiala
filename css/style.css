@@ -22,11 +22,16 @@
 }
 
 @font-face {
+    font-family: Aller_Bdlt;
+    src: url('../fonts/Aller_Bdlt.ttf') format('truetype');
+}
+
+@font-face {
     font-family: Myriad Pro;
     src: url('../fonts/MyriadPro-Regular.otf') format('truetype');
 }
 
-/*HEADER LOGO/SEARCH/LOGIN/REGISTER*/
+/*HEADER LOGO/SEARCH/LOGIN/REGISTER START*/
 .header-logo {
     background-color: #242424;
     /*height: 45px;*/
@@ -53,63 +58,142 @@
 }*/
 .search-bar {
     color: #7e7e7e;
-    padding: 15px 23px 0;
+    padding: 10px 23px 0;
     border-right: 1px solid #383838;
     border-left: 1px solid #383838;
 }
 
-.search-text {
-    float: left;
-    font-size: 12px;
+.search-bar .form-control {
     color: #7e7e7e;
-    font-family: "Myriad Pro";
-    text-transform: uppercase;
-    width: 100px;
     background-color: #242424;
-    border-color: #242424;
+    font-family: "Myriad Pro", Arial, sans-serif;
+    font-size: 12px;
+    float: left;
+    width: 100px;
+    border: none;
+    float: left;
+
 }
 
-.fas {
-    /*search logo*/
+.search-bar .form-control:focus {
+    box-shadow: none;
+}
+
+.search-bar .btn {
+    color: #adadad;
     float: right;
+    background-color: #242424;
+
+}
+
+.search-bar .btn:focus {
+    box-shadow: none;
 }
 
 .login-register {
     font-size: 12px;
-    font-family: "Aller_Rg";
-    color: #7e7e7e;
-    padding: 15px 0;
+    font-family: "Aller_Rg", Arial, sans-serif;
+    padding: 15px 23px 0;
     text-align: center;
     border-right: 1px solid #383838;
     border-left: 1px solid #383838;
-
 }
 
+.login-register a {
+    color: #7e7e7e;
+    text-decoration: none;
+}
 
-/*HEADER MENU*/
+.login-register a:hover {
+    color: #57c5a0;
+}
+
+/*HEADER LOGO/SEARCH/LOGIN/REGISTER END*/
+
+/*HEADER MENU START*/
 
 
 .header-menu {
     background-color: #ebeae5;
 }
 
-.navitem{
-	padding: 24px 22px 0px 22px;
+
+.menu-nav li {
+    padding: 22px 24px 22px 24px;
+    border-left: 1px solid #adadad;
 }
 
-.navitem{
-    border-left: 1px solid #000;
-}
-.navitem:last-child{
-    border-right: 1px solid #000;
-}
-.navlink{
-	color: #242424;
-	text-decoration: none;
-	font-size: 16px;
-	font-family: "Aller_Rg";
+.menu-nav li:last-child {
+    /*vertical line after contact*/
+    border-right: 1px solid #adadad;
 }
 
-.navlink:hover{
-	color: #333333;
+.menu-nav a {
+    color: #242424;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Aller_Rg", Arial, sans-serif;
 }
+
+.menu-nav a:hover {
+    color: #57c5a0;
+}
+
+.star-number {
+    padding: 22px;
+    border-left: 1px solid #adadad;
+    border-right: 1px solid #adadad;
+}
+
+.star-btn{
+	background-color: transparent;
+    border: none;
+}
+
+.fa-star {
+    color: #adadad;
+}
+
+.menu-number {
+    color: #fff;
+    background-color: #adadad;
+    font-family: "Aller_Rg", Arial, sans-serif;
+    size: 12px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+
+.shop-cart {
+    padding: 22px;
+    border-right: 1px solid #adadad;
+}
+
+.shop-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.shop-btn:focus {
+    box-shadow: none;
+}
+
+.fa-shopping-cart {
+    color: #adadad;
+}
+
+.menu-cartitems {
+    color: #fff;
+    background-color: #57c5a0;
+    font-family: "Aller_Rg", Arial, sans-serif;
+    size: 12px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+}
+
+.header-hero {
+    background: url(images/header1.jpg);
+    background-size: cover;
+}
+
+/*HEADER MENU END*/

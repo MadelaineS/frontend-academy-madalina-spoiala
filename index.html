@@ -13,6 +13,7 @@
 
 <body>
     <header>
+        <!-- Header Logo + Search, Login/Register Start -->
         <div class="header-logo">
             <div class="container">
                 <div class="row">
@@ -20,19 +21,21 @@
                         <a href="index.html">FOOSESHOES</a>
                     </div>
                     <div class="search-bar col-lg-2 col-md-2">
-                        <span class="search-text">SEARCH</span>
-                        <!-- 			<select placeholder="SEARCH" >
-						<a href="#"><option value="M" class="search-elem">MEN SHOES</option></a>
-						<a href="#"><option value="M" class="search-elem">KIDS</option></a>
-					</select> -->
-                        <span class="fas fa-search"></span>
+                        <div class="input-group">
+                            <!--  <span class="search-text">SEARCH</span> -->
+                            <input type="text" class="form-control">
+                            <span class="search-button">
+                                <button class="btn fas fa-search" type="submit"></button>
+                            </span>
+                        </div>
                     </div>
                     <div class="login-register col-lg-2 col-md-2">
-                        <span>LOGIN or REGISTER</span>
+                        <a href="#">LOGIN or REGISTER</a>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Header Menu Start -->
         <div class="header-menu">
             <div class="container">
                 <div class="row">
@@ -44,24 +47,33 @@
                             </button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="menu-nav navbar-nav mr-auto">
-                                    <li class="navitem"><a class="navlink" href="#">Home</a></li>
-                                    <li class="navitem"><a class="navlink" href="#">Products</a></li>
-                                    <li class="navitem"><a class="navlink" href="#">About</a></li>
-                                    <li class="navitem"><a class="navlink" href="#">Pages</a></li>
-                                    <li class="navitem"><a class="navlink" href="#">Blog</a></li>
-                                    <li class="navitem"><a class="navlink" href="#">Contact</a></li>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Products</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Pages</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contact</a></li>
                                 </ul>
                             </div>
                         </nav>
                     </div>
-                    <div class="col-lg-2 col-md-2">
+                    <div class="star-number col-lg-2 col-md-2">
+                    	<button class="star-btn">
+                        <span class="far fa-star"></span>
                         <span class="menu-number">30</span>
+                    </button>
                     </div>
-                    <div class="col-lg-2 col-md-2">
+                    <div class="shop-cart col-lg-2 col-md-2">
+                    	<button class="shop-btn">
+                        <span class="fas fa-shopping-cart"></span>
                         <span class="menu-cartitems">0</span>
+                    </button>
                     </div>
                 </div>
             </div>
+        </div>
+        <!-- Hero Slider Start -->
+        <div class="header-hero">
         </div>
     </header>
     <!-- Bootstrap scripts -->
