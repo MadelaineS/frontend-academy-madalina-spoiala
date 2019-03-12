@@ -17,18 +17,29 @@
 }
 
 @font-face {
+    font-family: Myriad Pro;
+    src: url('../fonts/MyriadPro-Regular.otf') format('truetype');
+}
+
+@font-face {
     font-family: Aller_Rg;
     src: url('../fonts/Aller_Rg.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: Aller_Bdlt;
-    src: url('../fonts/Aller_Bdlt.ttf') format('truetype');
+    font-family: Aller_Bd;
+    src: url('../fonts/Aller_Bd.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: Myriad Pro;
-    src: url('../fonts/MyriadPro-Regular.otf') format('truetype');
+    font-family: Aller_Lt;
+    src: url('../fonts/Aller_Lt.ttf') format('truetype');
+}
+
+
+html,
+body {
+    height: 100%;
 }
 
 /*HEADER LOGO/SEARCH/LOGIN/REGISTER START*/
@@ -114,18 +125,18 @@
 
 
 .header-menu {
-    background-color: #ebeae5;
+    background-color: #fff;
 }
 
 
 .menu-nav li {
-    padding: 22px 24px 22px 24px;
-    border-left: 1px solid #adadad;
+    padding: 20px 22px 20px 22px;
+    border-left: 1px solid #eeeeee;
 }
 
 .menu-nav li:last-child {
     /*vertical line after contact*/
-    border-right: 1px solid #adadad;
+    border-right: 1px solid #eeeeee;
 }
 
 .menu-nav a {
@@ -139,36 +150,38 @@
     color: #57c5a0;
 }
 
-.star-number {
-    padding: 22px;
-    border-left: 1px solid #adadad;
-    border-right: 1px solid #adadad;
+
+/*Star and Shop Icons+Txt*/
+.star-cart {
+    padding: 20px;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
 }
 
-.star-btn{
-	background-color: transparent;
+/*Star*/
+.star-btn {
+    background-color: transparent;
     border: none;
 }
 
+.star-btn:focus {
+    box-shadow: none;
+}
+
 .fa-star {
-    color: #adadad;
+    color: #6e6e6e;
 }
 
 .menu-number {
     color: #fff;
     background-color: #adadad;
-    font-family: "Aller_Rg", Arial, sans-serif;
+    font-family: "Aller_Bd", Arial, sans-serif;
     size: 12px;
     padding: 5px;
     border-radius: 6px;
 }
 
-
-.shop-cart {
-    padding: 22px;
-    border-right: 1px solid #adadad;
-}
-
+/*Shopping Cart*/
 .shop-btn {
     background-color: transparent;
     border: none;
@@ -179,21 +192,86 @@
 }
 
 .fa-shopping-cart {
-    color: #adadad;
+    color: #6e6e6e;
 }
 
 .menu-cartitems {
     color: #fff;
     background-color: #57c5a0;
-    font-family: "Aller_Rg", Arial, sans-serif;
+    font-family: "Aller_Bd", Arial, sans-serif;
     size: 12px;
     padding: 5px 10px 5px 10px;
     border-radius: 6px;
 }
 
-.header-hero {
-    background: url(images/header1.jpg);
+.carousel {
+    width: 100%;
+}
+
+.carousel-inner img {
+    width: 100%;
     background-size: cover;
 }
 
+.carousel-caption {
+    right: 20%;
+    left: 52%;
+    bottom: 60%;
+    text-align: left;
+    margin-bottom:-200px;
+}
+
+.hero-price {
+    padding: 27px 9px 27px 9px;
+    background-color: #57c5a0;
+    font-size: 13px;
+    font-family: "Aller_Bd", Arial, sans-serif;
+    display: inline-block;
+}
+
+.hero-title h2{
+    font-size: 40px;
+    font-family: "Aller_Lt", Arial, sans-serif;    
+    padding-right: 235px;
+}
+
+.hero-title a {
+    color: #242424;
+    text-decoration: none;
+}
+
+.hero-title a:hover {
+    color: #57c5a0;
+}
+
+.hero-lorem{
+    color: #242424;
+    size: 20px;
+    font-family: "Aller_Lt", Arial, sans-serif;
+    padding-right: 185px;
+}
+
+.shop-button{
+    color: #57c5a0;
+}
+
+.fa-eye, 
+.fa-share-square{
+	color: #6e6e6e;
+}
+
+.fa-eye:hover, 
+.fa-star:hover,
+.fa-share-square:hover,
+.shop-button:hover{
+	color: #242424;
+}
+.hero-buttons .btn{
+    background-color: #fafaf8;
+    padding: 12px 12px;
+    margin-right: 3px;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
 /*HEADER MENU END*/
