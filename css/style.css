@@ -204,6 +204,9 @@ body {
     border-radius: 6px;
 }
 
+/*HEADER MENU END*/
+
+/*HEADER CAROUSEL START*/
 .carousel {
     width: 100%;
 }
@@ -218,7 +221,7 @@ body {
     left: 52%;
     bottom: 60%;
     text-align: left;
-    margin-bottom:-200px;
+    margin-bottom: -200px;
 }
 
 .hero-price {
@@ -229,9 +232,9 @@ body {
     display: inline-block;
 }
 
-.hero-title h2{
+.hero-title h2 {
     font-size: 40px;
-    font-family: "Aller_Lt", Arial, sans-serif;    
+    font-family: "Aller_Lt", Arial, sans-serif;
     padding-right: 250px;
 }
 
@@ -244,29 +247,30 @@ body {
     color: #57c5a0;
 }
 
-.hero-lorem{
+.hero-lorem {
     color: #242424;
     size: 20px;
     font-family: "Aller_Lt", Arial, sans-serif;
     padding-right: 185px;
 }
 
-.shop-button{
+.shop-button {
     color: #57c5a0;
 }
 
-.fa-eye, 
-.fa-share-square{
-	color: #6e6e6e;
+.fa-eye,
+.fa-share-square {
+    color: #6e6e6e;
 }
 
-.fa-eye:hover, 
+.fa-eye:hover,
 .fa-star:hover,
 .fa-share-square:hover,
-.shop-button:hover{
-	color: #242424;
+.shop-button:hover {
+    color: #242424;
 }
-.hero-buttons .btn{
+
+.hero-buttons .btn {
     background-color: #fafaf8;
     padding: 12px 12px;
     margin-right: 3px;
@@ -274,4 +278,69 @@ body {
     box-shadow: none;
     border-radius: 0;
 }
-/*HEADER MENU END*/
+
+.carousel-indicators {
+    background-color: #000;
+    height: 14px;
+    margin-top: 6px;
+    width: 36%;
+    margin-left: 31%;
+    bottom: -47px;
+    padding: 0;
+}
+
+.carousel-indicators li {
+    width: 194px;
+    height: 10px;
+    background-color: #000;
+    margin-right: 1.08%;
+    border: none;
+    margin-bottom: 2px;
+    margin-top: -23px;
+    position: relative;
+    top: 25px;
+}
+
+
+.carousel-indicators .active {
+    background-color: #57c5a0;
+}
+
+
+.header-switch {
+    background-color: #2e2e2e;
+    height: 110px;
+}
+
+.switch {
+    width: 70%;
+    left: 45%;
+    margin-left: -28%;
+    padding-top: 20px;
+    position: absolute;
+    text-align: center;
+}
+
+.switch h3,
+p {
+    color: #fff;
+}
+
+.switch h3 {
+    font-size: 18px;
+    font-family: "Aller_Rg", Arial, sans-serif;
+}
+
+.switch p {
+    font-size: 12px;
+    font-family: "Aller_Rg", Arial, sans-serif;
+
+}
+
+.switch div {
+    display: inline-block;
+    padding: 26px 15px 20px 32px;
+    margin-left: 65px;
+}
+
+/*HEADER CAROUSEL END*/
