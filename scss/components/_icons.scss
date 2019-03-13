@@ -1,0 +1,102 @@
+/*HEADER LOGO/SEARCH/LOGIN/REGISTER START*/
+
+.search-bar .btn {
+    color: #adadad;
+    float: right;
+    background-color: #242424;
+
+}
+
+.search-bar .btn:focus {
+    box-shadow: none;
+}
+
+/*HEADER LOGO/SEARCH/LOGIN/REGISTER END*/
+
+
+/*HEADER MENU START*/
+/*Star and Shop Icons+Txt*/
+.star-cart {
+    padding: 20px;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+
+/*Star*/
+.star-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.star-btn:focus {
+    box-shadow: none;
+}
+
+.fa-star {
+    color: #6e6e6e;
+}
+
+
+.menu-number {
+    color: #fff;
+    background-color: #adadad;
+    font-family: "Aller_Bd", Arial, sans-serif;
+    size: 12px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+/*Shopping Cart*/
+.shop-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.shop-btn:focus {
+    box-shadow: none;
+}
+
+.fa-shopping-cart {
+    color: #6e6e6e;
+}
+
+.menu-cartitems {
+    color: #fff;
+    background-color: #57c5a0;
+    font-family: "Aller_Bd", Arial, sans-serif;
+    size: 12px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+}
+
+
+/*HEADER MENU END*/
+
+/*HEADER CAROUSEL START*/
+
+.shop-button {
+    color: #57c5a0;
+}
+
+.fa-eye,
+.fa-share-square {
+    color: #6e6e6e;
+}
+
+.fa-eye:hover,
+.fa-star:hover,
+.fa-share-square:hover,
+.shop-button:hover {
+    color: #242424;
+}
+
+.hero-buttons .btn {
+    background-color: #fafaf8;
+    padding: 12px 12px;
+    margin-right: 3px;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+/*HEADER CAROUSEL END*/

@@ -1,0 +1,150 @@
+@font-face {
+    font-family: Heiti SC;
+    src: url('../fonts/STHeitiSC-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Myriad Pro;
+    src: url('../fonts/MyriadPro-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: Aller_Rg;
+    src: url('../fonts/Aller_Rg.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Aller_Bd;
+    src: url('../fonts/Aller_Bd.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Aller_Lt;
+    src: url('../fonts/Aller_Lt.ttf') format('truetype');
+}
+
+/*HEADER LOGO/SEARCH/LOGIN/REGISTER START*/
+
+.logo {
+    padding: 6px 0;
+}
+
+.logo a {
+    font-size: 26px;
+    font-family: "Heiti SC", Arial, sans-serif;
+    color: #57c5a0;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: #46b28e;
+}
+
+.login-register {
+    font-size: 12px;
+    font-family: "Aller_Rg", Arial, sans-serif;
+    padding: 15px 23px 0;
+    text-align: center;
+    border-right: 1px solid #383838;
+    border-left: 1px solid #383838;
+}
+
+.login-register a {
+    color: #7e7e7e;
+    text-decoration: none;
+}
+
+.login-register a:hover {
+    color: #57c5a0;
+}
+
+/*HEADER LOGO/SEARCH/LOGIN/REGISTER END*/
+
+
+/*HEADER MENU START*/
+
+.menu-nav li {
+    padding: 20px 22px 20px 22px;
+    border-left: 1px solid #eeeeee;
+}
+
+.menu-nav li:last-child {
+    /*vertical line after contact*/
+    border-right: 1px solid #eeeeee;
+}
+
+.menu-nav a {
+    color: #242424;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Aller_Rg", Arial, sans-serif;
+}
+
+.menu-nav a:hover {
+    color: #57c5a0;
+}
+/*HEADER MENU END*/
+
+/*HEADER CAROUSEL START*/
+
+.carousel-caption {
+    right: 20%;
+    left: 52%;
+    bottom: 60%;
+    text-align: left;
+    margin-bottom: -200px;
+}
+
+.hero-price {
+    padding: 27px 9px 27px 9px;
+    background-color: #57c5a0;
+    font-size: 13px;
+    font-family: "Aller_Bd", Arial, sans-serif;
+    display: inline-block;
+}
+
+.hero-title h2 {
+    font-size: 40px;
+    font-family: "Aller_Lt", Arial, sans-serif;
+    padding-right: 250px;
+}
+
+.hero-title a {
+    color: #242424;
+    text-decoration: none;
+}
+
+.hero-title a:hover {
+    color: #57c5a0;
+}
+
+.hero-lorem {
+    color: #242424;
+    size: 20px;
+    font-family: "Aller_Lt", Arial, sans-serif;
+    padding-right: 185px;
+}
+
+.switch h3,
+p {
+    color: #fff;
+}
+
+.switch h3 {
+    font-size: 18px;
+    font-family: "Aller_Rg", Arial, sans-serif;
+}
+
+.switch p {
+    font-size: 12px;
+    font-family: "Aller_Rg", Arial, sans-serif;
+
+}
+
+.switch div {
+    display: inline-block;
+    padding: 26px 15px 20px 32px;
+    margin-left: 65px;
+}
+/*HEADER CAROUSEL END*/
+
