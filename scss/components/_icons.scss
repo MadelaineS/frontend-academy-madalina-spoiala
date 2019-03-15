@@ -1,14 +1,17 @@
 /*HEADER LOGO/SEARCH/LOGIN/REGISTER START*/
 
-.search-bar .btn {
-    color: #adadad;
-    float: right;
-    background-color: #242424;
+.search-bar {
 
-}
+    .btn {
+        color: #adadad;
+        float: right;
+        background-color: #242424;
 
-.search-bar .btn:focus {
-    box-shadow: none;
+    }
+
+    .btn:focus {
+        box-shadow: none;
+    }
 }
 
 /*HEADER LOGO/SEARCH/LOGIN/REGISTER END*/
@@ -58,6 +61,10 @@
 
 .fa-shopping-cart {
     color: #6e6e6e;
+}
+
+.fa-shopping-cart:hover{
+    color: #57c5a0;
 }
 
 .menu-cartitems {

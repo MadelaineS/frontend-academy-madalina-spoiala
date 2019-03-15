@@ -3,6 +3,11 @@ body {
   height: 100%;
 }
 
+main {
+  background-color: #ebe7df;
+  height: 1000px;
+}
+
 /*HEADER LOGO/SEARCH/LOGIN/REGISTER START*/
 .header-logo {
   background-color: #242424;
@@ -15,7 +20,6 @@ body {
   border-right: 1px solid #383838;
   border-left: 1px solid #383838;
 }
-
 .search-bar .form-control {
   color: #7e7e7e;
   background-color: #242424;
@@ -69,7 +73,6 @@ body {
   position: relative;
   top: 25px;
 }
-
 .carousel-indicators .active {
   background-color: #57c5a0;
 }
@@ -89,6 +92,20 @@ body {
 }
 
 /*HEADER CAROUSEL END*/
+/*HEADER OFFERS START*/
+.header-specials {
+  background-color: #242424;
+}
+
+.imgstyle {
+  padding: 20px 0px 20px 0px;
+}
+
+.imgstyle img .col-md-4 {
+  margin-right: 20px;
+}
+
+/*HEADER OFFERS END*/
 @font-face {
   font-family: Heiti SC;
   src: url("../fonts/STHeitiSC-Light.ttf") format("truetype");
@@ -120,7 +137,6 @@ body {
   color: #57c5a0;
   text-decoration: none;
 }
-
 .logo a:hover {
   color: #46b28e;
 }
@@ -138,7 +154,6 @@ body {
   color: #7e7e7e;
   text-decoration: none;
 }
-
 .login-register a:hover {
   color: #57c5a0;
 }
@@ -149,19 +164,16 @@ body {
   padding: 20px 22px 20px 22px;
   border-left: 1px solid #eeeeee;
 }
-
 .menu-nav li:last-child {
   /*vertical line after contact*/
   border-right: 1px solid #eeeeee;
 }
-
 .menu-nav a {
   color: #242424;
   text-decoration: none;
   font-size: 16px;
   font-family: "Aller_Rg", Arial, sans-serif;
 }
-
 .menu-nav a:hover {
   color: #57c5a0;
 }
@@ -179,6 +191,7 @@ body {
 .hero-price {
   padding: 27px 9px 27px 9px;
   background-color: #57c5a0;
+  color: #fff;
   font-size: 13px;
   font-family: "Aller_Bd", Arial, sans-serif;
   display: inline-block;
@@ -189,12 +202,10 @@ body {
   font-family: "Aller_Lt", Arial, sans-serif;
   padding-right: 250px;
 }
-
 .hero-title a {
   color: #242424;
   text-decoration: none;
 }
-
 .hero-title a:hover {
   color: #57c5a0;
 }
@@ -206,21 +217,14 @@ body {
   padding-right: 185px;
 }
 
-.switch h3,
-p {
-  color: #fff;
-}
-
 .switch h3 {
   font-size: 18px;
   font-family: "Aller_Rg", Arial, sans-serif;
 }
-
 .switch p {
   font-size: 12px;
   font-family: "Aller_Rg", Arial, sans-serif;
 }
-
 .switch div {
   display: inline-block;
   padding: 26px 15px 20px 32px;
@@ -228,13 +232,54 @@ p {
 }
 
 /*HEADER CAROUSEL END*/
+/*HEADER NEW ARRIVALS START*/
+.main-newarrivals .section-title {
+  padding-top: 25px;
+}
+.main-newarrivals .section-show {
+  margin-top: 25px;
+}
+
+.section-show a {
+  text-decoration: none;
+}
+.section-show a:hover {
+  color: #242424;
+}
+
+.shoestyle span {
+  padding: 27px 9px 27px 9px;
+  background-color: #57c5a0;
+  color: #fff;
+  font-size: 13px;
+  font-family: "Aller_Bd", Arial, sans-serif;
+  display: inline-block;
+  z-index: 10;
+  margin-left: 15px;
+  margin-top: 3px;
+}
+.shoestyle h3 {
+  font-size: 18px;
+  font-family: "Aller_Bd", Arial, sans-serif;
+  color: #242424;
+  background-color: #fff;
+  padding: 20px 72px 20px 72px;
+  margin-top: 3px;
+}
+
+/*HEADER NEW ARRIVALS END*/
+/*HEADER BEST SELLERS START*/
+.main-bestsellers .section-show {
+  margin-top: 5px;
+}
+
+/*HEADER BEST SELLERS END*/
 /*HEADER LOGO/SEARCH/LOGIN/REGISTER START*/
 .search-bar .btn {
   color: #adadad;
   float: right;
   background-color: #242424;
 }
-
 .search-bar .btn:focus {
   box-shadow: none;
 }
@@ -285,6 +330,10 @@ p {
   color: #6e6e6e;
 }
 
+.fa-shopping-cart:hover {
+  color: #57c5a0;
+}
+
 .menu-cartitems {
   color: #fff;
   background-color: #57c5a0;
@@ -322,5 +371,24 @@ p {
 }
 
 /*HEADER CAROUSEL END*/
+.switch h3, .switch p {
+  color: #fff;
+}
+
+.main-newarrivals .section-title, .main-bestsellers .section-title {
+  font-size: 25px;
+  font-family: "Aller_Lt", Arial, sans-serif;
+  color: #242424;
+}
+
+.main-newarrivals .section-show, .main-bestsellers .section-show {
+  font-size: 14px;
+  font-family: "Aller_Bd", Arial, sans-serif;
+  color: #bcb5a7;
+  border: 2px solid #bcb5a7;
+  padding: 5px 15px;
+  display: inline-block;
+  margin-left: 74%;
+}
 
 /*# sourceMappingURL=styles.css.map */
