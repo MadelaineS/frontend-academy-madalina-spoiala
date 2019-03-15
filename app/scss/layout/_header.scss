@@ -22,10 +22,11 @@
         border: none;
         float: left;
     }
-}
 
-.search-bar .form-control:focus {
-    box-shadow: none;
+    .form-control:focus {
+        box-shadow: none;
+    }
+
 }
 
 /*HEADER LOGO/SEARCH/LOGIN/REGISTER END*/
@@ -104,8 +105,8 @@
 }
 
 .imgstyle {
-    img .col-md-4{
-      margin-right: 20px;
+    img .col-md-4 {
+        margin-right: 20px;
     }
 }
 

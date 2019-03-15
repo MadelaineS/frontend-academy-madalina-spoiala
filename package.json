@@ -1,0 +1,31 @@
+{
+  "name": "osf-proj",
+  "version": "1.0.0",
+  "description": "frontend-academy-proj",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadelaineS/frontend-academy-madalina-spoiala.git"
+  },
+  "keywords": [
+    "frontend",
+    "ecommerce",
+    "html",
+    "css",
+    "scss",
+    "js"
+  ],
+  "author": "madalina spoiala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadelaineS/frontend-academy-madalina-spoiala/issues"
+  },
+  "homepage": "https://github.com/MadelaineS/frontend-academy-madalina-spoiala#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
