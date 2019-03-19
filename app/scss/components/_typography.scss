@@ -23,6 +23,11 @@
     src: url('../fonts/Aller_Lt.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: Aller_It;
+    src: url('../fonts/Aller_Lt.ttf') format('truetype');
+}
+
 /*HEADER LOGO/SEARCH/LOGIN/REGISTER START*/
 
 .logo {
@@ -224,3 +229,61 @@
 }
 
 /*HEADER BEST SELLERS END*/
+
+
+/*FOOTER WIDGETS START*/
+.widget-style h3 {
+    font-family: 'Aller_Bd';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #7d7d7d;
+}
+
+.widget-style p {
+    font-family: 'Aller_It';
+    font-size: 12px;
+    color: #a4a4a4;
+}
+
+/*FOOTER WIDGETS END*/
+
+/*FOOTER SOCIALS START*/
+
+
+/*FOOTER SOCIALS END*/
+
+/*FOOTER COPYRIGHT START*/
+
+.footer-copymessage p {
+    font-family: 'Aller_Rg';
+    font-size: 12px;
+    color: #acacac;
+    margin: 0 auto;
+}
+
+.footer-links {
+    ul {
+        text-align: right;
+    }
+
+    li {
+        font-family: 'Aller_Rg';
+        font-size: 12px;
+        display: inline-block;
+    }
+
+    li :after {
+        content: "/";
+    }
+
+    a {
+        color: #acacac;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #57c5a0;
+    }
+}
+
+/*FOOTER COPYRIGHT END*/

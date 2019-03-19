@@ -63,7 +63,7 @@
     color: #6e6e6e;
 }
 
-.fa-shopping-cart:hover{
+.fa-shopping-cart:hover {
     color: #57c5a0;
 }
 
@@ -107,3 +107,37 @@
 }
 
 /*HEADER CAROUSEL END*/
+
+/*FOOTER SOCIALS START*/
+
+.btn-input {
+    button {
+        color: #7d7d7d;
+    }
+}
+
+
+.socialicons {
+    ul {
+        text-align: right;
+    }
+
+    // li{
+    //     display: inline-block;
+    // }
+
+    a {
+        background-color: #2e2e2e;
+        padding: 8px 13px;
+        color: #7d7d7d;
+    }
+
+    a:hover {
+        background-color: #424141;
+        text-decoration: none;
+    }
+
+}
+
+
+/*FOOTER SOCIALS END*/
