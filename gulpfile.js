@@ -42,13 +42,12 @@ function watch() {
     //watches sass file and html/js
     gulp.watch('app/scss/**/*.scss', style);
     //reloads browser when HTML/JS files change
-    gulp.watch('app/*.html', reload);
+    gulp.watch('app/index.html', reload);
     gulp.watch('app/js/*.js', reload);
 }
 
 exports.style = style;
 exports.watch = watch;
-
 
 var build = gulp.parallel(style, watch); //runs tasks in parallel
 gulp.task('default', build);

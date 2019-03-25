@@ -1,12 +1,10 @@
-/*HEADER LOGO/SEARCH/LOGIN/REGISTER START*/
+// HEADER LOGO/SEARCH/LOGIN/REGISTER START
 
 .search-bar {
-
     .btn {
         color: #adadad;
         float: right;
         background-color: #242424;
-
     }
 
     .btn:focus {
@@ -19,16 +17,35 @@
 
 /*HEADER MENU START*/
 /*Star and Shop Icons+Txt*/
+
 .star-cart {
-    padding: 20px;
-    border-left: 1px solid #cccccc;
-    border-right: 1px solid #cccccc;
+   padding: 0 12px;
+   margin-right: -1px;
+}
+
+.star-cart {
+    .btn {
+       padding: 24px 18px;
+        border-radius: 0;
+        border-left: 1px solid #cccccc;
+        background-color: #fff;
+    }
+
+    .menu-number {
+        font-family: "Aller_Bd", Arial, sans-serif;
+        font-size: 12px;
+        color: #efefef;
+        padding: 4px 7px;
+        border-radius: 4px;
+        background: #adadad;
+        margin-left: 6px;
+    }
 }
 
 /*Star*/
 .star-btn {
-    background-color: transparent;
-    border: none;
+    ///background-color: transparent;
+    // border: none;
 }
 
 .star-btn:focus {
@@ -40,19 +57,19 @@
 }
 
 
-.menu-number {
-    color: #fff;
-    background-color: #adadad;
-    font-family: "Aller_Bd", Arial, sans-serif;
-    size: 12px;
-    padding: 5px;
-    border-radius: 6px;
-}
-
 /*Shopping Cart*/
 .shop-btn {
     background-color: transparent;
     border: none;
+    border-right: 1px solid #cccccc;
+   float: right;
+}
+
+.shop-btn {
+    .menu-number {
+        color: #fff;
+        background: #57c5a0;
+    }
 }
 
 .shop-btn:focus {
@@ -66,16 +83,6 @@
 .fa-shopping-cart:hover {
     color: #57c5a0;
 }
-
-.menu-cartitems {
-    color: #fff;
-    background-color: #57c5a0;
-    font-family: "Aller_Bd", Arial, sans-serif;
-    size: 12px;
-    padding: 5px 10px 5px 10px;
-    border-radius: 6px;
-}
-
 
 /*HEADER MENU END*/
 
@@ -110,34 +117,40 @@
 
 /*FOOTER SOCIALS START*/
 
-.btn-input {
-    button {
-        color: #7d7d7d;
+.subscribe {
+    .btn {
+        background: #7d7d7d;
+        border-radius: 0;
+        border: none;
+        padding: 8px 10px 8px 10px;
+        top: 0;
+    }
+
+    .btn:focus {
+        outline: none;
     }
 }
 
 
 .socialicons {
+    padding-right: 20px;
+
     ul {
         text-align: right;
     }
-
-    // li{
-    //     display: inline-block;
-    // }
 
     a {
         background-color: #2e2e2e;
         padding: 8px 13px;
         color: #7d7d7d;
+        display: inline-block;
     }
 
     a:hover {
         background-color: #424141;
         text-decoration: none;
     }
-
 }
 
 
-/*FOOTER SOCIALS END*/
+// FOOTER SOCIALS END 

@@ -15,22 +15,26 @@
     <header>
         <!-- Header Logo + Search, Login/Register Start -->
         <div class="header-logo">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="logo col-lg-8 col-md-8">
-                        <a href="index.html">FOOSESHOES</a>
-                    </div>
-                    <div class="search-bar col-lg-2 col-md-2">
-                        <div class="input-group">
-                            <!--  <span class="search-text">SEARCH</span> -->
-                            <input type="text" class="form-control">
-                            <span class="search-button">
-                                <button class="btn fas fa-search" type="submit"></button>
-                            </span>
+                    <div class="container">
+                        <div class="row no-gutters">
+                            <div class="logo col-xs-12 col-md-8">
+                                <a href="index.html">FOOSESHOES</a>
+                            </div>
+                            <div class="search-bar col-xs-12 col-sm-6 col-md-2">
+                                <div class="input-group">
+                                    <!--  <span class="search-text">SEARCH</span> -->
+                                    <input type="text" class="form-control">
+                                    <span class="search-button">
+                                        <button class="btn fas fa-search" type="submit"></button>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="login-register col-xs-12 col-sm-6 col-md-2">
+                                <a href="#">LOGIN or REGISTER</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="login-register col-lg-2 col-md-2">
-                        <a href="#">LOGIN or REGISTER</a>
                     </div>
                 </div>
             </div>
@@ -38,35 +42,31 @@
         <!-- Header Menu Start -->
         <div class="header-menu">
             <div class="container">
-                <div class="row">
+                <div class="row no-gutters">
                     <!-- menu -->
-                    <div class="col-lg-8 col-md-8">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="menu-nav navbar-nav mr-auto">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Products</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Pages</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </div>
-                        </nav>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light col-xs-5 col-sm-9 col-md-8">
+                        <button type="button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="menu-nav navbar-nav mr-auto">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Pages</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="col-md-2">
                     </div>
-                    <div class="col-lg-2 col-md-2">
-                    </div>
-                    <div class="star-cart clearfix col-lg-2 col-md-2">
-                        <button type="button" class=" star-btn">
-                            <span class="far fa-star"></span>
+                    <div class="star-cart col-xs-7 col-sm-3 col-md-2 clearfix" role="group" aria-label="...">
+                        <button type="button" class="btn star-btn far fa-star">
                             <span class="menu-number">30</span>
                         </button>
-                        <button type="button" class=" shop-btn">
-                            <span class="fas fa-shopping-cart"></span>
-                            <span class="menu-cartitems">5</span>
+                        <button type="button" class="btn shop-btn fas fa-shopping-cart">
+                            <span class="menu-number">5</span>
                         </button>
                     </div>
                 </div>
@@ -87,55 +87,61 @@
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
                                 <img src="images/header1.jpg" alt="pink shoes">
-                                <div class="carousel-caption">
-                                    <div class="hero-price">$145,99</div>
-                                    <span class="hero-title"><a href="#">
-                                            <h2>Pink Shoes 2013 Collection</h2>
-                                        </a></span>
-                                    <p class="hero-lorem">Nunc non fermentum nunc. Sed ut ante
-                                        eget leo tempor consequat sit amet eu orci.
-                                        Donec dignissim dolor eget..</p>
-                                    <div class="hero-buttons btn-group" role="group">
-                                        <button type="button" class="btn btn-default far fa-eye"></button>
-                                        <button type="button" class="btn btn-default far fa-star"></button>
-                                        <button type="button" class="btn btn-default fas fa-share-square"></button>
-                                        <button type="button" class="btn btn-default shop-button fas fa-shopping-cart"></button>
+                                <div class="carousel-caption container no-gutters">
+                                    <div class="col-sm-6 col-sm-offset-4 col-md-offset-4 col-lg-offset-6 no-gutter">
+                                        <div class="hero-price">$145,99</div>
+                                        <span class="hero-title"><a href="#">
+                                                <h2>Pink Shoes 2013 Collection</h2>
+                                            </a></span>
+                                        <p class="hero-lorem">Nunc non fermentum nunc. Sed ut ante
+                                            eget leo tempor consequat sit amet eu orci.
+                                            Donec dignissim dolor eget..</p>
+                                        <div class="hero-buttons btn-group" role="group">
+                                            <button type="button" class="btn btn-default far fa-eye"></button>
+                                            <button type="button" class="btn btn-default far fa-star"></button>
+                                            <button type="button" class="btn btn-default fas fa-share-square"></button>
+                                            <button type="button" class="btn btn-default shop-button fas fa-shopping-cart"></button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="images/header1.jpg" alt="pink shoes">
-                                <div class="carousel-caption">
-                                    <div class="hero-price">$200,99</div>
-                                    <span class="hero-title"><a href="#">
-                                            <h2>Anna Field 2013 Collection</h2>
-                                        </a></span>
-                                    <p class="hero-lorem">Nunc non fermentum nunc. Sed ut ante
-                                        eget leo tempor consequat sit amet eu orci.
-                                        Donec dignissim dolor eget..</p>
-                                    <div class="hero-buttons btn-group" role="group">
-                                        <button type="button" class="btn btn-default far fa-eye"></button>
-                                        <button type="button" class="btn btn-default far fa-star"></button>
-                                        <button type="button" class="btn btn-default fas fa-share-square"></button>
-                                        <button type="button" class="btn btn-default shop-button fas fa-shopping-cart"></button>
+                                <div class="carousel-caption container no-gutters">
+                                    <div class="col-sm-6 col-sm-offset-4 col-md-offset-4 col-lg-offset-6 no-gutter">
+                                        <div class="hero-price">$145,99</div>
+                                        <span class="hero-title"><a href="#">
+                                                <h2>Anna Field 2013 Collection</h2>
+                                            </a></span>
+                                        <p class="hero-lorem">Nunc non fermentum nunc. Sed ut ante
+                                            eget leo tempor consequat sit amet eu orci.
+                                            Donec dignissim dolor eget..</p>
+                                        <div class="hero-buttons btn-group" role="group">
+                                            <button type="button" class="btn btn-default far fa-eye"></button>
+                                            <button type="button" class="btn btn-default far fa-star"></button>
+                                            <button type="button" class="btn btn-default fas fa-share-square"></button>
+                                            <button type="button" class="btn btn-default shop-button fas fa-shopping-cart"></button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="images/header1.jpg" alt="pink shoes">
-                                <div class="carousel-caption">
-                                    <div class="hero-price">$355,99</div>
-                                    <span class="hero-title"><a href="#">
-                                            <h2>Prada 2013 Collection</h2>
-                                        </a></span>
-                                    <p class="hero-lorem">Nunc non fermentum nunc. Sed ut ante
-                                        eget leo tempor consequat sit amet eu orci.
-                                        Donec dignissim dolor eget..</p>
-                                    <div class="hero-buttons btn-group" role="group">
-                                        <button type="button" class="btn btn-default far fa-eye"></button>
-                                        <button type="button" class="btn btn-default far fa-star"></button>
-                                        <button type="button" class="btn btn-default fas fa-share-square"></button>
-                                        <button type="button" class="btn btn-default shop-button fas fa-shopping-cart"></button>
+                                <div class="carousel-caption container no-gutters">
+                                    <div class="col-sm-6 col-sm-offset-4 col-md-offset-4 col-lg-offset-6 no-gutter">
+                                        <div class="hero-price">$145,99</div>
+                                        <span class="hero-title"><a href="#">
+                                                <h2>Prada 2013 Collection</h2>
+                                            </a></span>
+                                        <p class="hero-lorem">Nunc non fermentum nunc. Sed ut ante
+                                            eget leo tempor consequat sit amet eu orci.
+                                            Donec dignissim dolor eget..</p>
+                                        <div class="hero-buttons btn-group" role="group">
+                                            <button type="button" class="btn btn-default far fa-eye"></button>
+                                            <button type="button" class="btn btn-default far fa-star"></button>
+                                            <button type="button" class="btn btn-default fas fa-share-square"></button>
+                                            <button type="button" class="btn btn-default shop-button fas fa-shopping-cart"></button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -144,10 +150,11 @@
                 </div>
             </div>
         </div>
+        <!-- Header Carousel Switcher -->
         <div class="header-switch">
             <div class="container-fluid hidden-xs">
                 <div class="row">
-                    <div class="container switch">
+                    <div class="container no-gutters switch">
                         <div>
                             <h3>Pink Shoes</h3>
                             <p>Now at $145,99</p>
@@ -164,68 +171,134 @@
                 </div>
             </div>
         </div>
+        <!-- Header Specials -->
         <div class="header-specials">
-            <div class="container">
-                <div class="row imgstyle">
-                    <div class="col-lg-4 col-md-4 col-xs-12"><img src="images/special1.png"></div>
-                    <div class="col-lg-4 col-md-4 col-xs-12"><img src="images/special2.png"></div>
-                    <div class="col-lg-4 col-md-4 col-xs-12"><img src="images/special3.png"></div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="container">
+                        <div class="row imgstyle">
+                            <div class="col-lg-4 col-md-4 col-xs-12 special-first">
+                                <a href="#" class="thumbnail"><img src="images/special1.png"></a>
+                            </div>
+                            <div class="visible-xs-block clearfix"></div>
+                            <div class="col-lg-4 col-md-4 col-xs-12 special-second">
+                                <a href="#" class="thumbnail"><img src="images/special2.png"></a>
+                            </div>
+                            <div class="visible-md-block clearfix"></div>
+                            <div class="col-lg-4 col-md-4 col-xs-12 special-third">
+                                <a href="#" class="thumbnail"><img src="images/special3.png"></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
     <main>
-        <div class="main-newarrivals">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-xs-6">
-                        <h3 class="section-title">New arrivals on FooseShoes</h3>
+        <!-- Main Products -->
+        <div class="container-fluid main-products">
+            <div class="row">
+                <div class="container">
+                    <div class="row main-newarrivals">
+                        <div class="col-xs-12 new-arrivals-wrap">
+                            <div class="col-md-6 col-xs-6 new-arrivals">
+                                <h3 class="section-title">New arrivals on FooseShoes</h3>
+                            </div>
+                            <div class="col-md-6 col-xs-6">
+                                <a href="#" class="section-show">Show All</a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-4 thumbnail pr na-first">
+                            <div class="col-lg-4 col-md-4 col-xs-12">
+                                <img src="images/shoe1.png">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-xs-12">
+                                <img src="images/shoe2.png">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-xs-12">
+                                <img src="images/shoe3.png">
+                            </div>
+                            <div class="row shoestyle">
+                                <span>$149,99</span>
+                                <h3>Even&Odd</h3>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6 col-xs-6">
-                        <a href="#" class="section-show">Show All</a>
+                    <div class="main-bestsellers">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <h3 class="section-title">Best sellers of the month</h3>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <h3 class="section-show">Show All</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-xs-12">
+                                    <img src="images/shoe4.png">
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-xs-12">
+                                    <img src="images/shoe5.png">
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-xs-12">
+                                    <img src="images/shoe6.png">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-xs-12">
-                        <img src="images/shoe1.png">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-xs-12">
-                        <img src="images/shoe2.png">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-xs-12">
-                        <img src="images/shoe3.png">
-                    </div>
-                </div>
-                <div class="row shoestyle">
-                    <span>$149,99</span>
-                    <h3>Even&Odd</h3>
                 </div>
             </div>
         </div>
-        <div class="main-bestsellers">
-            <div class="container">
+        <div class="main-news">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <h3 class="section-title">Best sellers of the month</h3>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <h3 class="section-show">Show All</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-xs-12">
-                        <img src="images/shoe4.png">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-xs-12">
-                        <img src="images/shoe5.png">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-xs-12">
-                        <img src="images/shoe6.png">
+                    <div class="container blog-wrap">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6 col-lg-3 free-ship">
+                                <div class="thumbnail">
+                                    <h3>free shipping</h3>
+                                    <p>Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem,</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-6 col-lg-3 testimonials">
+                                <div class="thumbnail">
+                                    <h3>testimonials</h3>
+                                    <p>vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit [...]</p>
+                                    <span>- John Doe -</span>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-lg-6 news">
+                                <div class="thumbnail">
+                                    <h3>blog news</h3>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <div class="col-xs-3 date">apr 01</div>
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Nice &#38; clean. The best for you blog!</h4>
+                                            <p>Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel</p>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <div class="col-xs-3 date">apr 01</div>
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">What an Ecommerce theme!</h4>
+                                            <p>Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="main-othercontent">
         </div>
     </main>
     <footer>
@@ -241,13 +314,29 @@
                                 </div>
                             </div>
                             <div class="col-xs-12 col-md-6 col-lg-4">
-                                <div class="widget-style">
+                                <div class="widget-style twitter-embedded">
                                     <h3>Twitter widget</h3>
+                                    <span>
+                                        <a class="twitter-timeline" data-lang="en" data-width="auto" data-height="250" data-dnt="true" data-chrome="noheader noborders transparent noscrollbar nofooter" data-tweet-limit="2" data-link-color="#57c5a0" href="https://twitter.com/Twitter">Tweets by Twitter</a>
+                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                        <meta name="twitter:widgets:theme" content="dark">
+                                    </span>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-md-6 col-lg-4">
                                 <div class="widget-style">
                                     <h3>Flickr widget</h3>
+                                    <span>
+                                        <iframe style="position: relative; top: 0; left: 0; width: 100%; height: 300px;" src="https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=sunset&sort=2&by=keywords&theme=tiles&scale=fit&speed=3000&limit=6&skin=alexis-light&autoplay=true" scrolling="no" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true">
+                                            <p><a href="https://themesort.com">ecommerce WordPress themes</a></p><small>Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+                                        </iframe>
+                                        <script type="text/javascript">
+                                        function showpics() {
+                                            var a = $("#box").val();
+                                            $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags=" + a + "&tagmode=any&format=json&jsoncallback=?", function(a) { $("#images").hide().html(a).fadeIn("fast"), $.each(a.items, function(a, e) { $("<img/>").attr("src", e.media.m).appendTo("#images"); }); });
+                                        }
+                                        </script>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -256,15 +345,17 @@
             </div>
         </div>
         <div class="footer-socials">
-            <div class="container-fluid">
+            <div class="container-fluid footersocials-content">
                 <div class="row">
-                    <div class="container footersocials-content">
+                    <div class="container">
                         <div class="row">
-                            <div class="col-xs-12 col-md-6">
-                                <input type="email" class="form-control" placeholder="Enter email for newsletter">
-                                <span class="btn-input">
-                                    <button class="fal fa-chevron-right" type="button"></button>
-                                </span>
+                            <div class="col-xs-12 col-md-6 subscribe">
+                                <div class="col-xs-12 col-md-8 col-lg-6 input-group">
+                                    <input type="email" class="form-control" placeholder="Enter email for newsletter">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default fas fa-chevron-right" type="button"></button>
+                                    </span>
+                                </div>
                             </div>
                             <div class="col-xs-12 col-md-6 socialicons">
                                 <div class="col-xs-12">

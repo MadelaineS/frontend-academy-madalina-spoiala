@@ -1,4 +1,3 @@
-
 html,
 body {
     height: 100%;
@@ -6,9 +5,19 @@ body {
 
 main{
 	background-color: #ebe7df;
-	// height: 1000px;
 }
 
-// footer{
-// 	height: 1000px;
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+// .col-xs-1-3,
+// .col-sm-1-3,
+// .col-md-1-3,
+// .col-lg-1-3 {
+//   position: relative;
+//   min-height: 1px;
+//   padding-right: 50px;
+//   padding-left: 10px;
 // }

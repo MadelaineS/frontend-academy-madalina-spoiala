@@ -3,7 +3,9 @@
     background-color: #242424;
 }
 
-.footer-widgets {
+.widgets {
+    padding-top: 27px;
+    padding-bottom: 17px;
     border-bottom: 1px solid #1c1c1c;
 }
 
@@ -13,9 +15,17 @@
 
 
 .footersocials-content {
-    padding-top: 26px;
-    padding-bottom: 26px;
+    padding-top: 38px;
+    padding-bottom: 35px;
+}
 
+.email-form{
+    padding-left: 35px;
+}
+
+
+.socialicons {
+    padding-right: 20px;
 }
 
 .footercopy-content {
