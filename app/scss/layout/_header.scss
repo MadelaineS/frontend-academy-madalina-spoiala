@@ -124,7 +124,7 @@
 .switch {
     width: 90%;
     left: 50%;
-    margin-left: -30%;
+    margin-left: -32%;
     padding-top: 20px;
     position: absolute;
     text-align: center;
@@ -144,7 +144,6 @@
 .imgstyle {
     img {
         width: 100%;
-        //tb sa includ si 100 la suta pt produsele din main
     }
 
     .thumbnail {
@@ -152,6 +151,8 @@
         padding: 0;
         border: none;
     }
+
+
 }
 
 .special-first,
@@ -213,3 +214,213 @@
 
 
 /*HEADER OFFERS END*/
+
+// HEADER NEW ARRIVALS START
+.main-newarrivals,
+.main-bestsellers {
+    padding: 30px 0 28px;
+}
+
+.products-1,
+.products-2 {
+    background: #ebe7df;
+
+    img {
+        width: 100%;
+        padding-bottom: 50px;
+        background-color: #fff;
+    }
+
+    .thumbnail {
+        margin-bottom: 0;
+        padding: 0 15px;
+        border: none;
+        background-color: transparent;
+    }
+}
+
+.products-2 {
+    padding-bottom: 47px;
+}
+
+.onsale::before {
+    content: "on sale!";
+    display: block;
+    font-family: "Aller_Bd", Arial, sans-serif;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #000;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 26px;
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top: 0;
+    right: 33px;
+}
+
+.outofstock::before {
+    content: "out of stock";
+    display: block;
+    font-family: "Aller_Bd", Arial, sans-serif;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #f27e4b;
+    text-align: center;
+    padding-top: 16px;
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top: 0;
+    right: 33px;
+}
+
+.price::after {
+    content: "$ 145,99";
+    display: block;
+    font-family: "Aller_Bd", Arial, sans-serif;
+    font-size: 13px;
+    color: #fff;
+    background: #57c5a0;
+    text-align: center;
+    padding-top: 25px;
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    bottom: 0;
+    left: 33px;
+}
+
+.title {
+    position: relative;
+    // padding-top: 40px;
+
+    p {
+        font-family: "Aller_Rg", Arial, sans-serif;
+        font-size: 18px;
+        color: #242424;
+        position: absolute;
+        left: 60px;
+        bottom: 5px;
+    }
+}
+
+.name-buttons {
+    position: absolute;
+    background-color: #fff;
+    transform: rotateY(180deg);
+
+    .btn:not(:last-child) {
+        border-radius: 0;
+        padding: 12px 12px;
+        font-size: 16px;
+        margin-right: 3px;
+        border: none;
+    }
+
+    .btn:focus {
+        outline: none;
+    }
+}
+
+//animation
+.more-animation {
+    position: absolute;
+    width: 164px;
+    height: 41px;
+    left: 100px;
+    bottom: 8px;
+    transform-style: preserve-3d;
+    transform: perspective(300px);
+    perspective-origin: center center;
+    transition: all 1.5s ease;
+}
+
+.gr-1 {
+    p {
+        position: static;
+        padding: 10px 0 0 23px;
+    }
+}
+
+.gr-1,
+.gr-6 {
+    width: 164px;
+    height: 41px;
+    position: absolute;
+}
+
+.gr-3,
+.gr-5 {
+    width: 164px;
+    height: 20px;
+    position: absolute;
+}
+
+.gr-2,
+.gr-4 {
+    width: 20px;
+    height: 41px;
+    position: absolute;
+    background: #fff;
+}
+
+.gr-1 {
+    background: #fff;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+}
+
+.gr-2 {
+    top: 0;
+    left: 100%;
+    transform-origin: 0 0;
+    transform: rotateY(90deg);
+}
+
+.gr-3 {
+    top: 100%;
+    left: 0;
+    transform-origin: 0 0;
+    transform: rotateX(-90deg);
+}
+
+.gr-4 {
+    top: 0;
+    right: 100%;
+    transform-origin: 100% 0;
+    transform: rotateY(-90deg);
+}
+
+.gr-5 {
+    bottom: 100%;
+    transform-origin: 0 100%;
+    transform: rotateX(90deg);
+}
+
+.gr-6 {
+   position: relative;
+    transform: translate3d(0, 0, -20px);
+}
+
+.shoen-first:hover .more-animation,
+.shoen-second:hover .more-animation,
+.shoen-third:hover .more-animation,
+.shoeb-first:hover .more-animation,
+.shoeb-second:hover .more-animation,
+.shoeb-third:hover .more-animation {
+    transform: rotate3d(0, 1, 0, -180deg);
+}
+
+
+// HEADER NEW ARRIVALS END 
+
+// HEADER BEST SELLERS START
+
+
+
+// HEADER BEST SELLERS END

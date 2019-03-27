@@ -50,7 +50,7 @@
 .login-register {
     font-family: "Aller_Rg", Arial, sans-serif;
     font-size: 12px;
-   padding: 15px 0;
+    padding: 15px 0;
     text-align: center;
     border-right: 1px solid #383838;
     border-left: 1px solid #383838;
@@ -166,29 +166,42 @@
 
 /*HEADER NEW ARRIVALS START*/
 
-.main-newarrivals {
-    .section-title {
-        @extend %title-main;
-        padding-top: 25px;
-    }
-
-    .section-show {
-        @extend %show-all;
-        margin-top: 25px;
-    }
+.section-title {
+    font-family: "Aller_Lt", Arial, sans-serif;
+    font-size: 25px;
+    color: #242424;
+    margin: 0;
+    padding-top: 5px;
+    float: left;
+}
 
 
+
+a .section-show {
+    text-decoration: none;
 }
 
 .section-show {
-    a {
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: #242424;
-    }
+    font-family: "Aller_Bd", Arial, sans-serif;
+    font-size: 14px;
+    color: #bcb5a7;
+    border: 2px solid #bcb5a7;
+    padding: 8px 22px;
+    vertical-align: middle;
+    margin: 0;
+    float: right;
 }
+
+.section-show:hover {
+    text-decoration: none;
+    color: #8b867b;
+    border: 2px solid #8b867b;
+}
+
+.showall{
+    float:right;
+}
+
 
 .shoestyle {
     span {
@@ -217,16 +230,16 @@
 
 /*HEADER BEST SELLERS START*/
 
-.main-bestsellers {
-    .section-title {
-        @extend %title-main;
-    }
+// .main-bestsellers {
+//     .section-title {
+//         @extend %title-main;
+//     }
 
-    .section-show {
-        @extend %show-all;
-        margin-top: 5px;
-    }
-}
+//     .section-show {
+//         @extend %show-all;
+//         margin-top: 5px;
+//     }
+// }
 
 /*HEADER BEST SELLERS END*/
 
@@ -278,7 +291,7 @@
     text-transform: uppercase;
     padding: 0 0;
     text-align: center;
-margin-right: 12px;
+    margin-right: 12px;
 }
 
 .testimonials span {
