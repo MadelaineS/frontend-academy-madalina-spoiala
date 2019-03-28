@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FOOSESHOES E-Commerce Site</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -75,7 +75,27 @@
         <div class="header-hero">
             <div class="container-fluid">
                 <div class="row">
-                    <div id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel">
+                    <div class="img-xs d-sm-none">
+                        <img src="images/img2.png">
+                        <div class="carousel-caption container no-gutters">
+                            <div class="no-gutter">
+                                <div class="hero-price">$145,99</div>
+                                <span class="hero-title"><a href="#">
+                                        <h2>Pink Shoes 2013 Collection</h2>
+                                    </a></span>
+                                <p class="hero-lorem">Nunc non fermentum nunc. Sed ut ante
+                                    eget leo tempor consequat sit amet eu orci.
+                                    Donec dignissim dolor eget..</p>
+                                <div class="hero-buttons btn-group" role="group">
+                                    <button type="button" class="btn btn-default far fa-eye"></button>
+                                    <button type="button" class="btn btn-default far fa-star"></button>
+                                    <button type="button" class="btn btn-default fas fa-share-square"></button>
+                                    <button type="button" class="btn btn-default shop-button fas fa-shopping-cart"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="myCarousel" class="carousel slide d-none d-sm-block d-none d-md-block" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -150,8 +170,8 @@
             </div>
         </div>
         <!-- Header Carousel Switcher -->
-        <div class="header-switch">
-            <div class="container-fluid hidden-xs">
+        <div class="header-switch d-none d-sm-block">
+            <div class="container-fluid ">
                 <div class="row">
                     <div class="container no-gutters switch">
                         <div>
@@ -179,11 +199,9 @@
                             <div class="col-lg-4 col-md-4 col-xs-12 special-first">
                                 <a href="#" class="thumbnail"><img src="images/special1.png"></a>
                             </div>
-                            <div class="visible-xs-block clearfix"></div>
                             <div class="col-lg-4 col-md-4 col-xs-12 special-second">
                                 <a href="#" class="thumbnail"><img src="images/special2.png"></a>
                             </div>
-                            <div class="visible-md-block clearfix"></div>
                             <div class="col-lg-4 col-md-4 col-xs-12 special-third">
                                 <a href="#" class="thumbnail"><img src="images/special3.png"></a>
                             </div>
@@ -209,16 +227,12 @@
                         </div>
                         <div class="col-xs-12 col-md-6 col-lg-4 thumbnail price shoen-first">
                             <img src="images/shoe1.png">
-                            <div class="title">
-                                <div class="more-animation">
-                                    <div class="gr-1">
+                            <div class="animationgroup-wrap">
+                                <div class="animationgroup">
+                                    <div class="product-title">
                                         <p>Even &#38; odd</p>
                                     </div>
-                                    <div class="gr-2"></div>
-                                    <div class="gr-3"></div>
-                                    <div class="gr-4"></div>
-                                    <div class="gr-5"></div>
-                                    <div class="gr-6">
+                                    <div class="product-buttons">
                                         <div class="btn-group name-buttons" role="group" aria-label="...">
                                             <button type="button" class="btn btn-default far fa-eye"></button>
                                             <button type="button" class="btn btn-default far fa-star"></button>
@@ -229,19 +243,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="visible-xs-block clearfix"></div>
                         <div class="col-xs-12 col-md-6 col-lg-4 thumbnail shoen-second onsale price">
                             <img src="images/shoe2.png">
-                            <div class="title">
-                                <div class="more-animation">
-                                    <div class="gr-1">
+                            <div class="animationgroup-wrap">
+                                <div class="animationgroup">
+                                    <div class="product-title">
                                         <p>Even &#38; odd</p>
                                     </div>
-                                    <div class="gr-2"></div>
-                                    <div class="gr-3"></div>
-                                    <div class="gr-4"></div>
-                                    <div class="gr-5"></div>
-                                    <div class="gr-6">
+                                    <div class="product-buttons">
                                         <div class="btn-group name-buttons" role="group" aria-label="...">
                                             <button type="button" class="btn btn-default far fa-eye"></button>
                                             <button type="button" class="btn btn-default far fa-star"></button>
@@ -252,19 +261,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="visible-xs-block clearfix"></div>
                         <div class="col-xs-12 col-md-6 col-lg-4 thumbnail shoen-third price">
                             <img src="images/shoe3.png">
-                            <div class="title">
-                                <div class="more-animation">
-                                    <div class="gr-1">
+                            <div class="animationgroup-wrap">
+                                <div class="animationgroup">
+                                    <div class="product-title">
                                         <p>Buffalo Decollete</p>
                                     </div>
-                                    <div class="gr-2"></div>
-                                    <div class="gr-3"></div>
-                                    <div class="gr-4"></div>
-                                    <div class="gr-5"></div>
-                                    <div class="gr-6">
+                                    <div class="product-buttons">
                                         <div class="btn-group name-buttons" role="group" aria-label="...">
                                             <button type="button" class="btn btn-default far fa-eye"></button>
                                             <button type="button" class="btn btn-default far fa-star"></button>
@@ -287,16 +291,12 @@
                         </div>
                         <div class="col-xs-12 col-md-6 col-lg-4 thumbnail price shoeb-first">
                             <img src="images/shoe4.png">
-                            <div class="title">
-                                <div class="more-animation">
-                                    <div class="gr-1">
+                            <div class="animationgroup-wrap">
+                                <div class="animationgroup">
+                                    <div class="product-title">
                                         <p>Even &#38; odd</p>
                                     </div>
-                                    <div class="gr-2"></div>
-                                    <div class="gr-3"></div>
-                                    <div class="gr-4"></div>
-                                    <div class="gr-5"></div>
-                                    <div class="gr-6">
+                                    <div class="product-buttons">
                                         <div class="btn-group name-buttons" role="group" aria-label="...">
                                             <button type="button" class="btn btn-default far fa-eye"></button>
                                             <button type="button" class="btn btn-default far fa-star"></button>
@@ -307,19 +307,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="visible-xs-block clearfix"></div>
                         <div class="col-xs-12 col-md-6 col-lg-4 thumbnail shoeb-second price">
                             <img src="images/shoe5.png">
-                            <div class="title">
-                                <div class="more-animation">
-                                    <div class="gr-1">
+                            <div class="animationgroup-wrap">
+                                <div class="animationgroup">
+                                    <div class="product-title">
                                         <p>Even &#38; odd</p>
                                     </div>
-                                    <div class="gr-2"></div>
-                                    <div class="gr-3"></div>
-                                    <div class="gr-4"></div>
-                                    <div class="gr-5"></div>
-                                    <div class="gr-6">
+                                    <div class="product-buttons">
                                         <div class="btn-group name-buttons" role="group" aria-label="...">
                                             <button type="button" class="btn btn-default far fa-eye"></button>
                                             <button type="button" class="btn btn-default far fa-star"></button>
@@ -330,19 +325,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="visible-xs-block clearfix"></div>
                         <div class="col-xs-12 col-md-6 col-lg-4 thumbnail shoeb-third outofstock price">
                             <img src="images/shoe6.png">
-                            <div class="title">
-                                <div class="more-animation">
-                                    <div class="gr-1">
+                            <div class="animationgroup-wrap">
+                                <div class="animationgroup">
+                                    <div class="product-title">
                                         <p>Buffalo Decollete</p>
                                     </div>
-                                    <div class="gr-2"></div>
-                                    <div class="gr-3"></div>
-                                    <div class="gr-4"></div>
-                                    <div class="gr-5"></div>
-                                    <div class="gr-6">
+                                    <div class="product-buttons">
                                         <div class="btn-group name-buttons" role="group" aria-label="...">
                                             <button type="button" class="btn btn-default far fa-eye"></button>
                                             <button type="button" class="btn btn-default far fa-star"></button>

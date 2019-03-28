@@ -116,6 +116,7 @@
     display: inline-block;
 }
 
+
 .hero-title {
     h2 {
         font-size: 40px;
@@ -133,9 +134,10 @@
     }
 }
 
+
 .hero-lorem {
     color: #242424;
-    size: 20px;
+    font-size: 20px;
     font-family: "Aller_Lt", Arial, sans-serif;
     padding-right: 185px;
 }
@@ -158,13 +160,63 @@
     div {
         display: inline-block;
         padding: 26px 32px;
-        margin-left: 65px;
+        margin-left: 10px;
     }
 }
 
 /*HEADER CAROUSEL END*/
 
-/*HEADER NEW ARRIVALS START*/
+/*HEADER OFFERS START*/
+
+.special-first,
+.special-second,
+.special-third {
+    a::before {
+        font-family: "Aller_Lt", Arial, sans-serif;
+        font-size: 25px;
+        text-transform: uppercase;
+        color: #ffffff;
+        background: #242424;
+        position: absolute;
+        padding: 2% 6%;
+    }
+}
+
+.special-first {
+    a::before {
+        content: "on sale";
+        top: 50%;
+        left: 50%;
+        margin-left: -72px;
+        margin-top: -27px;
+    }
+}
+
+.special-second {
+    a::before {
+        content: "special offers";
+        top: 50%;
+        left: 50%;
+        margin-left: -114px;
+        margin-top: -27px;
+    }
+}
+
+.special-third {
+    a::before {
+        content: "must have";
+        top: 50%;
+        left: 50%;
+        margin-left: -88px;
+        margin-top: -27px;
+    }
+}
+
+
+/*HEADER OFFERS END*/
+
+
+/*HEADER PRODUCTS START*/
 
 .section-title {
     font-family: "Aller_Lt", Arial, sans-serif;
@@ -226,22 +278,8 @@ a .section-show {
     }
 }
 
-/*HEADER NEW ARRIVALS END*/
+/*HEADER PRODUCTS END*/
 
-/*HEADER BEST SELLERS START*/
-
-// .main-bestsellers {
-//     .section-title {
-//         @extend %title-main;
-//     }
-
-//     .section-show {
-//         @extend %show-all;
-//         margin-top: 5px;
-//     }
-// }
-
-/*HEADER BEST SELLERS END*/
 
 /*PRE-FOOTER NEWS START*/
 .blog {
@@ -325,19 +363,6 @@ a .section-show {
         color: #57c5a0;
     }
 
-    /* Buttonish */
-    // display: inline-block;
-    // padding: 6px 12px 6px 30px;
-    // margin: 10px 0;
-    // border: #ccc solid 1px;
-    // border-radius: 3px;
-    // background: #f8f8f8 url("") 8px 8px no-repeat;
-    // background-size: 1em 1em;
-
-    /* Text */
-    // font: normal 12px/18px Helvetica, Arial, sans-serif;
-    // color: #a4a4a4;
-    // white-space: nowrap;
 }
 
 
@@ -387,10 +412,6 @@ a .section-show {
         display: inline-block;
         position: relative;
     }
-
-    // li :after {
-    //     content: "/";
-    // }
 
     li:not(:last-child):after {
         content: "/";

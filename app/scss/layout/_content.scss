@@ -1,0 +1,157 @@
+// CONTENT PRODUCTS START
+.main-newarrivals,
+.main-bestsellers {
+    padding: 30px 0 28px;
+}
+
+.products-1,
+.products-2 {
+    background: #ebe7df;
+
+    img {
+        width: 100%;
+        padding-bottom: 50px;
+        background-color: #fff;
+    }
+
+    .thumbnail {
+        margin-bottom: 0;
+        padding: 0 15px;
+        border: none;
+        background-color: transparent;
+    }
+}
+
+.products-2 {
+    padding-bottom: 47px;
+}
+
+.onsale::before {
+    content: "on sale!";
+    display: block;
+    font-family: "Aller_Bd", Arial, sans-serif;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #000;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 26px;
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top: 0;
+    right: 33px;
+}
+
+.outofstock::before {
+    content: "out of stock";
+    display: block;
+    font-family: "Aller_Bd", Arial, sans-serif;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #f27e4b;
+    text-align: center;
+    padding-top: 16px;
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top: 0;
+    right: 33px;
+}
+
+.price::after {
+    content: "$ 145,99";
+    display: block;
+    font-family: "Aller_Bd", Arial, sans-serif;
+    font-size: 13px;
+    color: #fff;
+    background: #57c5a0;
+    text-align: center;
+    padding-top: 25px;
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    bottom: 0;
+    left: 33px;
+}
+
+.animationgroup-wrap {
+    position: relative;
+
+    p {
+        font-family: "Aller_Rg", Arial, sans-serif;
+        font-size: 18px;
+        color: #242424;
+        position: absolute;
+        left: 60px;
+        bottom: 5px;
+    }
+}
+
+.name-buttons {
+    position: absolute;
+    background-color: #fff;
+    transform: rotateY(180deg);
+
+    .btn:not(:last-child) {
+        border-radius: 0;
+        padding: 12px 12px;
+        font-size: 16px;
+        margin-right: 3px;
+        border: none;
+    }
+
+    .btn:focus {
+        outline: none;
+    }
+}
+
+//product title view buttons-animation
+.animationgroup {
+    position: absolute;
+    width: 164px;
+    height: 41px;
+    left: 100px;
+    bottom: 8px;
+    transform-style: preserve-3d;
+    transform: perspective(300px);
+    perspective-origin: center center;
+    transition: all 1.5s ease;
+}
+
+.product-title,
+.product-buttons {
+    width: 164px;
+    height: 41px;
+    position: absolute;
+}
+
+.product-title {
+    background: #fff;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+
+    p {
+        position: static;
+        padding: 10px 0 0 23px;
+    }
+}
+
+.product-buttons {
+    position: relative;
+    transform: translate3d(0, 0, -20px);
+}
+
+.shoen-first:hover .animationgroup,
+.shoen-second:hover .animationgroup,
+.shoen-third:hover .animationgroup,
+.shoeb-first:hover .animationgroup,
+.shoeb-second:hover .animationgroup,
+.shoeb-third:hover .animationgroup {
+    transform: rotate3d(0, 1, 0, -180deg);
+}
+
+// CONTENT PRODUCTS END
